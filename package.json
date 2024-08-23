@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Start my react journey",
   "scripts": {
-    "start": "rm -rf .parcel-cache && parcel",
-    "build": "rm -rf .parcel-cache && parcel build"
+    "start": "parcel index.html", 
+    "build": "parcel buil d index.html"
   },
   "repository": {
     "type": "git",
