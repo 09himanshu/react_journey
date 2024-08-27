@@ -1,30 +1,33 @@
 import React from "react"
 import ReactDOM from 'react-dom/client'
+import { Header } from "./Components/Header"
+import { Body } from "./Components/Body"
 
-// React element 
-const heading = React.createElement(
-    'h4',
-    {id: 'heading'},
-    'Namaste React!'
-)
+/**
+ * Planing for the site
+ * 
+ * Header
+ *  -logo
+ *  -Nav Menu
+ * Body
+ *  -Search
+ *  -Resturant Container
+ *      - Img
+ *      - Name of Resturant, Star Rating, Cuisines
+ * Footer
+ *  - copyright
+ *  - Links
+ *  - Address
+ *  - Contact
+ * 
+ */
 
-// JSX
-const JSX = <h1 id="heading ">Namaste React using JSX </h1>
-
-// Functional Component
-const Title = () => (
-    <>
-        <h1>this is title component</h1>
-        {heading}
-    </>
-)
-
-const FirstComponent = () => (
-    <div id="container">
-        <h1>Namaste React Functional Component</h1>
-        <Title/>
+const Applayout = () => (
+    <div className="app">
+        <Header/>
+        <Body/>
     </div>
 )
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
-root.render(<FirstComponent />)
+root.render(<Applayout />)
