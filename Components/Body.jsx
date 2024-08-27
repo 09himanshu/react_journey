@@ -2,9 +2,11 @@ import { Resturants_containers } from "./Resturants"
 
 const Body = () => (
     <div className="body">
-        <div>Search</div>
-        <Resturants_containers />
+        <div className="search">Search</div>
+        <div className="resturant-container">
+            <Resturants_containers />
+        </div>
     </div>
 )
 
-export  {Body}
+export { Body }

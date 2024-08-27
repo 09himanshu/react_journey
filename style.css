@@ -32,3 +32,24 @@ body{
     color: white;
     font-size: 14px;
 }
+
+.res-cards{
+    padding: 5px;
+    height: 300px;
+    width: 200px;
+    background: #EFEFEF;
+}
+
+.res-cards:hover{
+    border: 1px solid black;
+    box-shadow: 2px 3px 5px #9A9A9A;
+    cursor: pointer;
+}
+
+.search{
+    padding: 10px;
+}
+
+.res-img {
+    width: 100%
+}
