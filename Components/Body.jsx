@@ -1,12 +1,32 @@
-import { Resturants_containers } from "./Resturants"
+import { ResturantsContainers } from './Resturants'
 
 const Body = () => (
-    <div className="body">
-        <div className="search">Search</div>
-        <div className="resturant-container">
-            <Resturants_containers />
-        </div>
+  <div className="body">
+    <div className="search">Search</div>
+    <div className="resturant-container">
+      <ResturantsContainers />
+      <ResturantsContainers />
+      <ResturantsContainers />
+      <ResturantsContainers />
+      <ResturantsContainers />
+      <ResturantsContainers />
+      <ResturantsContainers />
+      <ResturantsContainers />
+      <ResturantsContainers />
+      <ResturantsContainers />
+      <ResturantsContainers />
+      <ResturantsContainers />
+      <ResturantsContainers />
+      <ResturantsContainers />
+      <ResturantsContainers />
+      <ResturantsContainers />
+      <ResturantsContainers />
+      <ResturantsContainers />
+      <ResturantsContainers />
+      <ResturantsContainers />
+      <ResturantsContainers />
     </div>
+  </div>
 )
 
 export { Body }

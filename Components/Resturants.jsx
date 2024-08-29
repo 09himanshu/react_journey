@@ -1,5 +1,5 @@
 import images from '../images/pexels-ash-craig-122861-376464.jpg'
-const Resturants_containers = () => (
+const ResturantsContainers = () => (
   <div className="res-cards">
     <img className="res-img" src={images} alt="" />
     <h3>Hot Cake</h3>
@@ -9,4 +9,4 @@ const Resturants_containers = () => (
   </div>
 )
 
-export {Resturants_containers}
+export {ResturantsContainers}
