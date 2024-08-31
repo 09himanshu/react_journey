@@ -1,11 +1,12 @@
 import images from '../images/pexels-ash-craig-122861-376464.jpg'
-const ResturantsContainers = () => (
+
+const ResturantsContainers = (props) => (
   <div className="res-cards">
     <img className="res-img" src={images} alt="" />
-    <h3>Hot Cake</h3>
-    <h4> Asian</h4>
-    <h5>4.4 starts</h5>
-    <p>40 mins</p>
+    <h3>{props.res_name}</h3>
+    <h4>{props.item}</h4>
+    <h5>{props.rating}</h5>
+    <p>{props.time}</p>
   </div>
 )
 
