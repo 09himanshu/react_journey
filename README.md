@@ -19,3 +19,9 @@
 - Host app on https
 - Tree Shaking -(remove unused code)
 
+# React Hooks
+- useState()
+- useEffect()
+
+# Reconciliation algorithm
+- React fiber
