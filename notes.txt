@@ -1,0 +1,9 @@
+Need to learn more about
+1. useState
+2. useEffect
+3. useMemo
+4. useContext
+5. useReducer
+6. useRef
+7. useCallback
+
